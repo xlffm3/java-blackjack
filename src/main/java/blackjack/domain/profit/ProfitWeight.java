@@ -22,7 +22,6 @@ public enum ProfitWeight {
             return calculateWhenDealerBlackJack(player);
         }
         return calculateWhenNormalSituation(dealer, player);
-
     }
 
     private static ProfitWeight calculateWhenDealerBust(Player player) {
